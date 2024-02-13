@@ -12,6 +12,6 @@ while (1)
     bCharging = oResult.Charging
   next
   iPercent = ((iRemaining / iFull) * 100) mod 100
-  if bCharging and (iPercent > 95) Then msgbox "Battery is Fully charged"
+  if bCharging and (iPercent > 96) Then msgbox "Battery is Fully charged"
   wscript.sleep 30000 ' 5 minutes
 wend
